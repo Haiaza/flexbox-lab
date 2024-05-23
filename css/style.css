@@ -9,6 +9,7 @@
   }
   
   nav {
+    display: flex;
     background-color: white;
     padding: 8px 16px;
   }
@@ -62,6 +63,15 @@
     font-weight: 500;
   }
   
+  div#destinations {
+    display: flex
+    
+  }
+
+  div#actions{
+    display: flex;
+  }
+
   .img-placeholder {
     width: 355px;
     height: 270px;
