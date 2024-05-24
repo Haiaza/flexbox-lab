@@ -56,6 +56,9 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   nav button {
@@ -105,6 +108,7 @@
   
   article.card {
     display: inline-block;
+    justify-content: space-between;
   }
 
   .img-placeholder {
@@ -112,10 +116,13 @@
     height: 270px;
     background-color: gray;
     border-radius: 8px;
+    margin: 13px;
   }
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
   }
   
   .card-footer * {
