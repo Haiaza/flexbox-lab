@@ -64,13 +64,30 @@
   }
   
   div#destinations {
-    display: flex
-    
+    display: flex;
+    margin: 8px;
+  }
+
+  div#destinations > p {
+    margin: 0px 6px;
   }
 
   div#actions{
     display: flex;
+
   }
+  div#actions > p {
+    margin: 0px 18px;
+  }
+  
+  nav > div {
+    align-items: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  } 
 
   .img-placeholder {
     width: 355px;
