@@ -109,6 +109,7 @@
   article.card {
     display: inline-block;
     justify-content: space-between;
+    margin: 0px 8px;
   }
 
   .img-placeholder {
@@ -116,13 +117,14 @@
     height: 270px;
     background-color: gray;
     border-radius: 8px;
-    margin: 13px;
+    margin: 10px 13px;
   }
   
   .card-footer {
     font-size: 14px;
     display: flex;
     justify-content: space-between;
+    align-content: flex-start;
   }
   
   .card-footer * {
